@@ -71,8 +71,8 @@ linear-gradient(155deg, rgba(46,0,10,1) 10px, transparent 10px);
 .cloudwok-embed .btn-success,
 .cloudwok-embed .btn-primary {
 	color: #fff;
-    background-color: rgba(46,0,10,1);
-    border-color: rgba(46,0,10,1);
+    background-color: rgba(46,0,10,1)!important;
+    border-color: rgba(46,0,10,1)!important;
     margin: 0px 20px;
 }
 
@@ -82,22 +82,22 @@ linear-gradient(155deg, rgba(46,0,10,1) 10px, transparent 10px);
 
 
 .cloudwok-embed .btn-files-refresh {
-	color: rgba(46,0,10,1);
-	background-color: white;
-	border-color: white;
+	color: rgba(46,0,10,1)!important;
+	background-color: white!important;
+	border-color: white!important;
 }
 
 .cloudwok-embed .btn-primary:hover,
 .cloudwok-embed .btn-success:hover {
-	background-color: rgba(255,68,117,1);
-	border-color: rgba(255,68,117,1);
+	background-color: rgba(255,68,117,1)!important;
+	border-color: rgba(255,68,117,1)!important;
 }
 
 .cloudwok-embed .btn-files-refresh:hover,
 .cloudwok-embed .btn-files-refresh:active  {
-	color: rgba(255,68,117,1);
-	background-color: rgba(255,255,255,1);
-	border-color: rgba(255,255,255,1);
+	color: rgba(255,68,117,1)!important;
+	background-color: rgba(255,255,255,1)!important;
+	border-color: rgba(255,255,255,1)!important;
 }
 
 small {
