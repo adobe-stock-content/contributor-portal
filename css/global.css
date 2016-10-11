@@ -110,13 +110,19 @@ small {
 }
 
 .dropbox {
-	padding-bottom: 150px;
+	padding-bottom: 300px;
 }
 
 .cloudwok-embed .form-control:focus {
 	border-color:rgba(255,219,77,1);
 	box-shadow: inset 0 1px 1px rgba(255,219,77,.6);
 }
+
+/* uploading files */
+.cloudwok-upload-files {
+	padding-top: 30px; 
+}
+
 
 /* footer */
 
@@ -126,7 +132,7 @@ small {
 }
 
 .overlay#footer {
-	position:fixed;
+	position:absolute;
 	bottom:0;
 	left:0;
 	height: 150px;
@@ -135,7 +141,7 @@ small {
 }
 
 footer {
-	position:fixed;
+	position:absolute;
 	bottom:0;
 	left:0;
 	height: 150px;
@@ -156,9 +162,3 @@ linear-gradient(335deg, rgba(46,0,10,1) 10px, transparent 10px),
 linear-gradient(155deg, rgba(46,0,10,1) 10px, transparent 10px);
 	vertical-align: baseline;
 	}
-
-footer p {
-	color: rgba(255,255,255,1);
-	line-height: 2;
-	font-family: 
-}
