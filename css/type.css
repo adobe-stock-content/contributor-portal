@@ -1,4 +1,50 @@
-.text-instruction{
-	font-family: proxima-nova";
-	weight: 300; 
-	}
+.text-instruction {
+	font-family: 'proxima-nova';
+	font-weight: 100; 
+}
+
+.text-instruction strong {
+	font-family: 'proxima-nova';
+	font-weight: 500;	
+}
+
+.col-xs-6 strong ,
+.text-right strong {
+	font-family: 'proxima-nova';
+	font-weight: 500;	
+}
+
+.text-center {
+	font-family: 'proxima-nova';
+	font-weight: 100;
+}
+
+.cloudwok-embed .form-control {
+	font-family: 'proxima-nova';
+	font-weight: 100; 
+		line-height: 1.5;
+}
+
+footer p {
+	margin: 2% 10%;
+	font-family: 'proxima-nova';
+	font-weight: 500;
+	color: rgba(255,68,117,1); 
+	background-color: rgba(46,0,10,1);
+	padding:10px 20px; 
+	border: 5px solid rgba(255,68,117,1); 
+}
+
+footer p a {
+	font-family: 'proxima-nova';
+	font-weight: 500;
+	text-decoration: none;
+	color:rgba(255,68,117,1);
+}
+
+footer p a:hover {
+	font-family: 'proxima-nova';
+	font-weight: 500;
+	text-decoration: none;
+	color:rgba(255,255,255,1);
+}
