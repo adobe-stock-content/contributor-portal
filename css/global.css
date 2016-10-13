@@ -132,7 +132,7 @@ small {
 }
 
 .overlay#footer {
-	position:fixed;
+	position:absolute;
 	bottom:0;
 	left:0;
 	height: 150px;
@@ -141,7 +141,7 @@ small {
 }
 
 footer {
-	position:fixed;
+	position:absolute;
 	bottom:0;
 	left:0;
 	height: 150px;
