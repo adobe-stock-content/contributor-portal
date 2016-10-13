@@ -44,6 +44,12 @@ linear-gradient(155deg, rgba(46,0,10,1) 10px, transparent 10px);
 	background-color: rgba(255,255,255,.2)	
 }
 
+#wrapper {
+	width: 100%;
+	min-height:100%;
+	position:absolute;
+}
+
 .container {
 	margin: 0 auto;
 	width: 90%;
@@ -125,11 +131,6 @@ small {
 
 
 /* footer */
-
-#wrapper {
-	min-height:100%;
-	position:relative;
-}
 
 .overlay#footer {
 	position:absolute;
